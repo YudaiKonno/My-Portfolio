@@ -154,7 +154,10 @@ footer {
     padding: 0;
 }
 .box21{
-    padding: 0.5em 1em;
+    padding:auto;
+    width:auto;
+    max-width: 1280px;
+    min-width: 1000px;
     background: -moz-linear-gradient(#ffb03c, #ff708d);
     background: -webkit-linear-gradient(#ffb03c, #ff708d);
     background: linear-gradient(to right, #ffb03c, #ff708d);
