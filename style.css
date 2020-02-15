@@ -16,10 +16,10 @@ ul{
 nav{
   display: inline;
   text-align: center;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   color:#FFFFFF;
 }
 
@@ -144,8 +144,8 @@ footer {
 }
 /*ここは記事の枠線のCSS*/
 .box4{
-    padding: 8px 19px;
-    margin: 2em 0;
+    padding:auto;
+    margin:auto;
     color: #2c2c2f;
     background: #cde4ff;
     border-top: solid 5px #5989cf;
@@ -175,10 +175,10 @@ footer {
    /* ======================== */
    /* ▼共通装飾(兼モバイル用) */
    /* ======================== */
-@media screen and (min-width: 414px) {/*スマホ対応サイズ　iPhone8*/
+@media screen and (min-width: 414px) {
    body {
       background-color: #486d46;
-      background-image: url("IT系素材画像.jpg");
+      background-image: url("/Users/konnofamily/Desktop/img/IT系素材画像.jpg");
       background-size: cover;
       background-attachment: fixed;
       background-position: center center;
@@ -190,7 +190,7 @@ footer {
    @media screen and (min-width: 800px) {
       body {
          background-color: #486d46;
-         background-image: url("img/IT系素材画像.jpg"); 
+         background-image: url("/Users/konnofamily/Desktop/img/IT系素材画像.jpg"); /
          background-size: cover;
          background-attachment: fixed;
          background-position: center center;
@@ -201,7 +201,7 @@ footer {
    /* ============ */
    @media screen and (min-width: 1280px) {
       body {
-         background-image: url("IT系素材画像.jpg");
+         background-image: url("/Users/konnofamily/Desktop/img/IT系素材画像.jpg");
          background-size: cover;
          background-attachment: fixed;
          background-position: center center;
