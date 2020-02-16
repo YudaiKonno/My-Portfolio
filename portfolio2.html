@@ -51,7 +51,7 @@
 
       t1 = (J2*J)-(J1*J);
 
-      <code>if((J2*J)&lt;(J1*J)) </code> {
+      if((J2*J)&lt;(J1*J)) {
         t1 = t1 * -1;
         System.out.println("現在のホイール幅より" +"-"+ Math.round(t1) + "mm細いホイール幅です。\n");
       }else {
@@ -65,7 +65,7 @@
       Inch2 = scanner.nextDouble();
       t2 = (Inch2*I)-(Inch1*I);
 
-      <code>if(Inch2&lt;Inch1) </code>{
+      if(Inch2&lt;Inch1) {
         t2 = t2 * -1;
         System.out.println("現在のホイールよりも" +"-"+ Math.round(t2) + "cm小さい外径です。\n");
       }else{
@@ -79,7 +79,7 @@
       Inset2 = scanner.nextInt();
 
       t3 = Inset1 - Inset2;
-      <code>if(Inset2&lt;Inset1) {</code>
+      if(Inset2&lt;Inset1) {
         t3 = t3 * -1;
         System.out.println("インセットは現在よりも:"+Math.round(t3)+"mm。"+"数値分(mm)外側に出ます。\n");
 
@@ -87,7 +87,7 @@
         System.out.println("インセットは現在よりも:"+Math.round(t3)+"mm。"+"数値分(mm)内側に入ります。\n");
       }
 
-      <code>if(Inset1&l;t0) {</code>
+      if(Inset1&lt;0) {
         Inset1 = Inset1 * -1;
         System.out.println("現在のホイールサイズは："+J1+"J/"+Math.round(Inch1)+"インチ"+"Inset"+(Inset1)+"mm\n");
       }else{
@@ -95,7 +95,7 @@
       }
       System.out.println("希望のホイールサイズは："+J2+"J/"+Math.round(Inch2)+"インチ"+"Inset"+(Inset2)+"mm\n");
 
-    <code>  if(t1&l;tJ1)  {</code>
+    if(t1&lt;J1)  {
         System.out.println("現在のホイールサイズと希望のホイールサイズと比較の差:"+"ホイール幅は"+Math.round(t1)+"mm細くなる。\n");
         System.out.println("現在よりも"+Math.round(t2)+"mmホイール外径は小さくなる。"+"インセットは"+Math.round(t3)+"mm");
       }else {
